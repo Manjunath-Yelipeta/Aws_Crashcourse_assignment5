@@ -1,0 +1,122 @@
+    1  vim ~/.ssh/authorized_keys 
+    2  df -h
+    3  htop
+    4  python3 test.py
+    5  ps -ef | grep python3
+    6  ps -ef | grep python3
+    7  sudo apt install tmux
+    8  cd
+    9  git clone https://github.com/gpakosz/.tmux.git
+   10  ln -s -f .tmux/.tmux.conf
+   11  cp .tmux/.tmux.conf.local .
+   12  tmux new -s work
+   13  tmux ls
+   14  tmuxh attach -t work
+   15  tmux attach -t work
+   16  curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+   17  unzip awscliv2.zip
+   18  sudo apt install unzip
+   19  sudo ./aws/install
+   20  unzip awscliv2.zip
+   21  sudo ./aws/install
+   22  ls
+   23  aws --version
+   24  aws s3 cp test.py s3://test-bucket5-emlo/test_folder/
+   25  ls
+   26  ls
+   27  sudo apt install docker.io
+   28  sudo apt update
+   29  sudo apt install docker.io
+   30  cd fargate-tutorial/
+   31  docker ps
+   32  ls -lstr docker
+   33  sudo usermod -aG docker $USER
+   34  sudo chown 777 /var/run/docker.sock
+   35  docker ps
+   36  sudo usermod -aG docker $ USER
+   37  sudo usermod -aG docker $USER
+   38  sudo chown 777 /var/run/docker.sock
+   39  docker ps
+   40  docker 
+   41  docker build -t timm-fargate
+   42  docker build -t timm-fargate .
+   43  echo $USER
+   44  sudo usermod -aG docker ubuntu
+   45  docker ps
+   46  sudo chown 777 /var/run/docker.sock
+   47  docker ps
+   48  ls
+   49  docker ps
+   50  sudo usermod -aG docker $USER
+   51  sudo chmod 777 /var/run/docker.sock
+   52  docker ps
+   53  docker build -t timm-fargate .
+   54  docker run -it -p 7860:7860 timm-fargate:latest
+   55  docker ps
+   56  docker image ls
+   57  python vision.py
+   58  python
+   59  python3
+   60  docker run -it -p 7860:7860 timm-fargate:latest
+   61  docker build -t timm-fargate .
+   62  docker run -it -p 7860:7860 timm-fargate:latest
+   63  docker image ls
+   64  ip addr
+   65  pip list
+   66  docker rm $(docker ps --filter status=exited -q)
+   67  docker ps
+   68  docker build -t timm-fargate .
+   69  docker run -it -p 7860:7860 timm-fargate:latest
+   70  docker ps
+   71  docker iamge ls
+   72  docker image ls
+   73  docker image rm 850
+   74  docker image ls
+   75  docker image rm 7cc
+   76  docker ls
+   77  docker list
+   78  docker --help
+   79  docker image ls
+   80  docker rm 7cc
+   81  docker image rm 7cc
+   82  docker rm $(docker ps --filter status=exited -q)
+   83  docker ps
+   84  docker system prune -a
+   85  docker ps
+   86  docker build -t timm-fargate .
+   87  docker run -it -p 7860:7860 timm-fargate:latest
+   88  python3 vision.py
+   89  docker system prune -a
+   90  import urllib
+   91  import gradio as gr
+   92  import torch
+   93  import timm
+   94  import numpy as np
+   95  from PIL import Image
+   96  from timm.data import resolve_data_config
+   97  from timm.data.transforms_factory import create_transform
+   98  from typing import Dict
+   99  MODEL: str = "resnet18"
+  100  model = timm.create_model(MODEL, pretrained=True)
+  101  model.eval()
+  102  url, filename = (
+  103  )
+  104  urllib.request.urlretrieve(url, filename)
+  105  with open("imagenet_classes.txt", "r") as f:
+  106  def predict(inp_img: Image) -> Dict[str, float]:
+  107  if __name__ == "__main__":;     gr.Interface(
+  108  docker build -t timm-fargate1 .
+  109  docker run -it -p 7860:7860 timm-fargate1:latest
+  110  aws ecr-public get-login-password --region us-east-1 | docker login --username AWS --password-stdin public.ecr.aws/g2k0e8z5
+  111  docker tag timm-fargate:latest public.ecr.aws/g2k0e8z5/timm-fargate:latest
+  112  docker tag timm-fargate1:latest public.ecr.aws/g2k0e8z5/timm-fargate:latest
+  113  docker push public.ecr.aws/g2k0e8z5/timm-fargate:latest
+  114  ls
+  115  cd aws_crash_course_assignmnnt5/
+  116  ls
+  117  pip list
+  118  aws 
+  119  aws help
+  120  docker image ls
+  121  history
+  122  history > commands_used.txt
